@@ -17,6 +17,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private Button btnShowMyName;
+    private Button btnReset;
     private TextView txtName;
     private EditText editTextName;
 
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnShowMyName = findViewById(R.id.btnShowMyName);
+        btnReset = findViewById(R.id.btnReset);
         txtName = findViewById(R.id.txtName);
         editTextName = findViewById(R.id.editTextName);
 
@@ -38,6 +40,14 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     txtName.setText("Hello there, what's your name?");
                 }
+            }
+        });
+
+        btnReset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                editTextName.setText("");
+                txtName.setText("");
             }
         });
     }
