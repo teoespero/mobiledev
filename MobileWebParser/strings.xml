@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ParseData</string>
+    <string name="web_parser">Web Parser</string>
+    <string name="parse_button">Parse the site</string>
+    <string name="site_to_parse_hint">Enter the URL of the site</string>
+    <string name="clear_html_window">Clear the HTML window</string>
+    <string name="image_description">App Android Avatar</string>
+</resources>
