@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JSONArrayParser</string>
+    <string name="user_id">User Id</string>
+    <string name="id">Id</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="avatar_image">Android Robot Image</string>
+    <string name="previous_button">Previous</string>
+    <string name="next_button">Next</string>
+</resources>
